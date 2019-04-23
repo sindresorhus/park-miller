@@ -30,7 +30,7 @@ random.integer();
 
 Type: `integer`
 
-[Initialization seed.](https://en.m.wikipedia.org/wiki/Random_seed)
+[Initialization seed.](https://en.wikipedia.org/wiki/Random_seed)
 
 ### random.integer()
 ### random.integerInRange(min, max)

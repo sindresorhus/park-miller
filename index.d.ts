@@ -2,7 +2,7 @@ declare class ParkMiller {
 	/**
 	[Park-Miller](https://en.wikipedia.org/wiki/Lehmer_random_number_generator) pseudorandom number generator (PRNG).
 
-	@param seed - [Initialization seed.](https://en.m.wikipedia.org/wiki/Random_seed)
+	@param seed - [Initialization seed.](https://en.wikipedia.org/wiki/Random_seed)
 
 	@example
 	```
