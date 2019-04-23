@@ -2,7 +2,7 @@
 const MAX_INT32 = 2147483647;
 const MINSTD = 16807;
 
-module.exports = class {
+class ParkMiller {
 	constructor(seed) {
 		if (!Number.isInteger(seed)) {
 			throw new TypeError('Expected `seed` to be a `integer`');
@@ -36,4 +36,6 @@ module.exports = class {
 	boolean() {
 		return this.integer() % 2 === 0;
 	}
-};
+}
+
+module.exports = ParkMiller;
