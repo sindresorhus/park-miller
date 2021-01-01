@@ -1,4 +1,4 @@
-# park-miller [![Build Status](https://travis-ci.org/sindresorhus/park-miller.svg?branch=master)](https://travis-ci.org/sindresorhus/park-miller)
+# park-miller
 
 > [Park-Miller](https://en.wikipedia.org/wiki/Lehmer_random_number_generator) pseudorandom number generator (PRNG)
 
