@@ -1,6 +1,6 @@
 {
 	"name": "park-miller",
-	"version": "1.1.0",
+	"version": "2.0.0",
 	"description": "Park-Miller pseudorandom number generator (PRNG)",
 	"license": "MIT",
 	"repository": "sindresorhus/park-miller",
