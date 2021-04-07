@@ -1,8 +1,9 @@
-'use strict';
 const MAX_INT32 = 2147483647;
 const MINSTD = 16807;
 
-class ParkMiller {
+// TODO: Use private class fields when ESLint supports it.
+
+export default class ParkMiller {
 	constructor(seed) {
 		if (!Number.isInteger(seed)) {
 			throw new TypeError('Expected `seed` to be a `integer`');
@@ -37,5 +38,3 @@ class ParkMiller {
 		return this.integer() % 2 === 0;
 	}
 }
-
-module.exports = ParkMiller;

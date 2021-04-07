@@ -2,25 +2,22 @@
 
 > [Park-Miller](https://en.wikipedia.org/wiki/Lehmer_random_number_generator) pseudorandom number generator (PRNG)
 
-
 ## Install
 
 ```
 $ npm install park-miller
 ```
 
-
 ## Usage
 
 ```js
-const ParkMiller = require('park-miller');
+import ParkMiller from 'park-miller';
 
 const random = new ParkMiller(10);
 
 random.integer();
 //=> 2027521326
 ```
-
 
 ## API
 
@@ -38,12 +35,6 @@ Type: `integer`
 ### random.floatInRange(min, max)
 ### random.boolean()
 
-
 ## Related
 
 - [randoma](https://github.com/sindresorhus/randoma) - User-friendly pseudorandom number generator (PRNG)
-
-
-## License
-
-MIT © [Sindre Sorhus](https://sindresorhus.com)

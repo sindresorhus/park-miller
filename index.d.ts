@@ -1,4 +1,4 @@
-declare class ParkMiller {
+export default class ParkMiller {
 	/**
 	[Park-Miller](https://en.wikipedia.org/wiki/Lehmer_random_number_generator) pseudorandom number generator (PRNG).
 
@@ -6,7 +6,7 @@ declare class ParkMiller {
 
 	@example
 	```
-	import ParkMiller = require('park-miller');
+	import ParkMiller from 'park-miller';
 
 	const random = new ParkMiller(10);
 
@@ -22,5 +22,3 @@ declare class ParkMiller {
 	floatInRange(min: number, max: number): number;
 	boolean(): boolean;
 }
-
-export = ParkMiller;

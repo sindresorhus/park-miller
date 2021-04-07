@@ -1,5 +1,5 @@
 import test from 'ava';
-import ParkMiller from '.';
+import ParkMiller from './index.js';
 
 const MAX_INT32 = 2147483647;
 const ITERATIONS = 10000;

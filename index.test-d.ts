@@ -1,5 +1,5 @@
 import {expectType} from 'tsd';
-import ParkMiller = require('.');
+import ParkMiller from './index.js';
 
 const random: ParkMiller = new ParkMiller(10);
 
