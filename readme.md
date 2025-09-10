@@ -4,8 +4,8 @@
 
 ## Install
 
-```
-$ npm install park-miller
+```sh
+npm install park-miller
 ```
 
 ## Usage
