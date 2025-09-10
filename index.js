@@ -23,7 +23,7 @@ export default class ParkMiller {
 	}
 
 	integerInRange(min, max) {
-		return Math.round(this.floatInRange(min, max));
+		return Math.floor(this.floatInRange(min, max + 1));
 	}
 
 	float() {
